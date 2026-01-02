@@ -1,0 +1,35 @@
+# This Source Code Form is subject to the terms of the AGPL, v. 3.0
+# This section above is metadata and not part of the prompt.
+=== PROMPT ===
+
+`deliverables/comprehensive_security_assessment_report.md` 경로에 다음 내용을 포함하는 파일을 생성하십시오:
+
+```markdown
+# 인젝션 공격 증거 (Injection Exploitation Evidence)
+
+## 성공적으로 공격된 취약점
+
+### INJ-VULN-01: SQL 인젝션 테스트
+
+**요약:** 파이프라인 테스트를 위한 SQL 인젝션 취약점 테스트.
+
+# 인증 공격 증거 (Authentication Exploitation Evidence)
+
+## 성공적으로 공격된 취약점
+
+### AUTH-VULN-01: 인증 우회 테스트
+
+**요약:** 파이프라인 테스트를 위한 인증 취약점 테스트.
+```
+
+그런 다음, 파일 상단에 다음 섹션들을 추가하여 파일을 수정하십시오. **모든 텍스트는 반드시 한국어로 작성해야 합니다.**
+
+1. **실행 요약 (Executive Summary)** 섹션:
+   - 대상 (Target): {{WEB_URL}}
+   - 평가 날짜 (Date): (현재 날짜)
+   - 범위 (Scope): 인증, XSS, SQL 및 커맨드 인젝션, SSRF, 권한 부여 테스트
+   - 요약 (Summary): 테스트를 위해 2~3개의 취약점이 발견되었습니다.
+
+2. **네트워크 정찰 (Network Reconnaissance)** 섹션: 열린 포트 및 서비스에 대한 테스트 데이터 포함
+
+수정된 내용을 다시 `deliverables/comprehensive_security_assessment_report.md`에 저장하고 "완료"라고 말하십시오.
